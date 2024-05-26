@@ -54,9 +54,9 @@ Last Updated: 2024/05/26
    - Ensure the microscope is set to 10X magnification. If not, inform the staff and change it.
 
 2. **Detector Settings**:
-   - Detectors: HyDS & HyDX.
-     - HyDS: Efficient for UV to yellow spectrum.
-     - HYDX: Efficient for yellow to far-red spectrum.
+   - Detectors: HyD S & HyD X.
+     - HyD S: Efficient for UV to yellow spectrum.
+     - HYD X: Efficient for yellow to far-red spectrum.
    - Use the fluorophore panel to assign fluorophores to the appropriate detectors by dragging them from the search results.
 
 3. **Turning On the White Light Laser (WLL)**:
@@ -70,9 +70,9 @@ Last Updated: 2024/05/26
 
 5. **Image Acquisition Settings**:
    - Avoid taking too many or too few pixels to ensure manageable image sizes and useful resolution for analysis.
-   - Your object of interest (e.g. nuclei) shoud be defined with 5-10 pixes, you can adjust the pixel size accordingly (increasing pixel density, or by switcing to a higher mag. objective).
+   - Your object of interest (e.g., nuclei) should be defined with 5-10 pixels in each axis; you can adjust the pixel size accordingly in the scan mode widget (by increasing pixel density or by switching to a higher mag. objective).
    - Use the "Projects" tab to properly name your files, including dates, magnification, and fluorophores used.
-   - Save images to the image analysis server: `Z:/projects/your_lab_folder`.
+   - Save images to the image analysis server: `Z:/projects/your_lab_folder`
 
 ## Shutting Down the System
 
@@ -80,7 +80,7 @@ Last Updated: 2024/05/26
    - Save all your files.
    - Right-click on the project line and select "Close All."
    - Reset acquisition parameters to default.
-   - Delete detector settings by clicking the "X" or trash button.
+   - Delete detector settings by clicking the "X", reset (right-click) or trash button.
 
 2. **Clean and Remove Sample**:
    - Change magnification to 10X after cleaning immersion objectives.
@@ -88,11 +88,11 @@ Last Updated: 2024/05/26
 
 3. **Close Software and Log Off**:
    - Close the software (this may take up to 2 minutes).
-   - Log off from the booking system.
+   - Log off from Bookit system.
 
 4. **Turn Off the Controller**:
    - Switch off the key.
    - Turn off the laser switch.
    - Turn off the power switch.
 
-Following these instructions will help ensure proper use and maintenance of the Stellaris confocal microscope, as well as facilitate smooth transitions between users.
+## Following these instructions will help ensure proper use and maintenance of the microscope, as well as facilitate smooth transitions between users.
