@@ -30,7 +30,7 @@ Last Updated: 2024/05/26
 3. **Software Interface**:
    - The interface will load in about 1-2 minutes.
    - The interface is divided into widgets:
-     - **Left Side Widgets**: Scan mode and Z stack settings.
+     - **Left Side Widgets**: Scan mode (Left) and Z stack (Right) settings.
     
        
        
@@ -39,7 +39,7 @@ Last Updated: 2024/05/26
      <img width="257" alt="2024-05-26_16h50_54" src="https://github.com/Faculty-of-Agriculture-CSI-Microscopy/Stellaris-STED/assets/55537771/226a263a-cc92-4cce-9bb5-20b0802251f9">
 
 
-     - **Right Side Widgets**: Objective selection, laser, and detectors settings.
+     - **Right Side Widgets**: Objective selection (Left), laser, and detectors settings(Right).
     
        
        
