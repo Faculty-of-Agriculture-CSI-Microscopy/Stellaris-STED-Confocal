@@ -24,6 +24,9 @@ Last Updated: 2024/05/26
    - In "Microscope" choose: **DMI8**.
    - Click "OK."
 
+> [!Caution]
+> Ensure the objective is set to the smallest magnification (10X) to avoid damage to the microscope.
+
 2. **Motorized Stage Setup**:
    - When prompted about the motorized stage, click "Yes" to enable X & Y movement.
 
@@ -72,7 +75,15 @@ Last Updated: 2024/05/26
    - Avoid taking too many or too few pixels to ensure manageable image sizes and useful resolution for analysis.
    - Your object of interest (e.g., nuclei) should be defined with 5-10 pixels in each axis; you can adjust the pixel size accordingly in the scan mode widget (by increasing pixel density or by switching to a higher mag. objective).
    - Use the "Projects" tab to properly name your files, including dates, magnification, and fluorophores used.
-   - Save images to the image analysis server: `Z:/projects/your_lab_folder`
+   
+> [!TIP]
+> Name your project as YYYY-MM-DD-your-project-name.
+> In case you acquired multiple images `(nImages>10)`, it is recommended to split the `.lif` project to multiple `.lif` files
+> that contain up to 15 images. In case of missing data, you don't lose an entire dataset.
+> You can start naming your images while acquiring them. It is a good way to avoid confusion at the end of the session.
+
+> [!IMPORTANT]
+> Save images to the image analysis server: `Z:/projects/your_lab_folder`
 
 ## Shutting Down the System
 
@@ -83,12 +94,15 @@ Last Updated: 2024/05/26
    - Delete detector settings by clicking the "X", reset (right-click) or trash button.
 
 2. **Clean and Remove Sample**:
-   - Change magnification to 10X after cleaning immersion objectives.
+> [!Caution]
+> Ensure the objective is set to the smallest magnification (10X) to avoid damage to the microscope.
    - Remove your sample and clean the microscope room.
 
 3. **Close Software and Log Off**:
    - Close the software (this may take up to 2 minutes).
    - Log off from Bookit system.
+> [!IMPORTANT]
+> Log off only when you are sure everything is properly closed and your data is saved in your folder.
 
 4. **Turn Off the Controller**:
    - Switch off the key.
